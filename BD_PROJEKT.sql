@@ -104,7 +104,7 @@ CREATE TABLE reservations(
     guest_id NUMBER(4) NOT NULL CONSTRAINT reservations_guests_fk REFERENCES guests(guest_id)
 );
 
---CONSTRAINTS
+---CONSTRAINTS
 
 ALTER TABLE address ADD CONSTRAINT address_hotel_fk FOREIGN KEY(hotel_id) REFERENCES hotel(hotel_id);
 ALTER TABLE sales ADD CONSTRAINT sales_hotel_fk FOREIGN KEY(hotel_id) REFERENCES hotel(hotel_id);
