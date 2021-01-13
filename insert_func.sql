@@ -88,10 +88,10 @@ BEGIN
     SELECT hotel_id INTO v_hotel_id FROM ROOMS R JOIN FLOORS F ON(f.floor_id = r.room_id)
     WHERE r.room_id = :new.room_id;
     UPDATE SALES SET revenue = revenue + :new.price WHERE HOTEL_ID = v_hotel_id;
-    dbms_output.put_line('Dodano kwotê wynajmu do obrotu '||:new.price);
+    dbms_output.put_line('Dodano kwotÃª wynajmu do obrotu '||:new.price);
 END;
 /
--- wyliczenie ilosci gosci w hotelu i na podstawie tego dodanie lub odjecie z pensji menadzerowi o ile taki sie znajduje
+-- wyliczenie ilosci gosci w hotelu i na podstawie tego dodanie lub odjecie z pensji menadzerowi o ile taki sie znajduje 
 CREATE OR REPLACE PROCEDURE calculate_amount_of_guest(h_id NUMBER)
 AS
 c_min_guest CONSTANT NUMBER := 2;
