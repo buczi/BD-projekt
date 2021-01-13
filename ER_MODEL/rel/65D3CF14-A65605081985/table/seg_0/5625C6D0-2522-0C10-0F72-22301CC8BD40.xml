@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5625C6D0-2522-0C10-0F72-22301CC8BD40" name="EQUIPMENT">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>5D81430F-5FDE-716F-3251-51E731F98DB4</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ROOMS_ROOM_ID" id="9221BE58-1421-F59F-BF72-D2794A869528">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>80474817-B00F-8CB7-817E-7C9C3732A9D9</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="130F5467-7B4E-10FE-64B2-B03E02CA03EE" referredColumn="87E47C54-9554-FD78-3D58-5887AE10C665"/>
+</associations>
+</Column>
+<Column name="FUTNITURE_FURNITURE_ID" id="D2B041C6-A925-A271-2491-E71A2215BC11">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>2A0C4349-5E77-D320-14E8-EAF11F426D61</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76BE9FFC-AE49-0CDA-8753-05F0931641C5" referredColumn="8CCAA5C1-4CB9-D70E-3CB9-3F01DAB8249E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38DE5CFE-7CDB-248A-B41B-58FAD22CD548" name="EQUIPMENT_ROOMS_FK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>AE4CD404-0BBA-8729-3A46-E6E13CE96855</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9221BE58-1421-F59F-BF72-D2794A869528"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F82829AA-0E3A-0790-F576-337000DC31F6" name="EQUIPMENT_FUTNITURE_FK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>046619EF-3CF6-7CD7-95CA-7B6F772BD27E</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2B041C6-A925-A271-2491-E71A2215BC11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

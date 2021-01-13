@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE90EE48-3BB3-A992-2114-281B020A475C" name="GUESTS">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>AE0E9707-09EB-0D7C-7B1C-B597A6497353</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GUEST_ID" id="2AC5793F-EFE5-6A0C-94C1-4A8DE552AA9B">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>555BA24D-8502-8733-8C1B-54AC204E5663</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="BA7D25B8-5767-1781-8121-72EAD0E42AFE">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>014B98E7-B113-2DF5-77EC-8E21979CB4E1</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SURNAME" id="08FEF02D-7E53-34DE-26E0-603D7BB925A8">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>8EB688D5-5F0E-23DD-2596-D672D0F6D3A3</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_NUMBER" id="CDAE663F-5F94-B20B-8A41-9B2B079E8819">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>0047A98D-4FD6-9F67-A3E9-D686C45013C7</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28FCBE68-84DE-4A23-E801-151D9C40006C" name="GUESTS_PK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>38AB0971-2B75-A16C-7528-45FD0F4E35DC</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AC5793F-EFE5-6A0C-94C1-4A8DE552AA9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BE5AAF7-01B2-A7D7-3310-0429D0B7069F" name="GUE_PK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 08:12:40 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AC5793F-EFE5-6A0C-94C1-4A8DE552AA9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

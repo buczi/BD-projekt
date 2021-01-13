@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EQUIPMENT FUTNITURE FK" directorySegmentName="seg_0" id="046619EF-3CF6-7CD7-95CA-7B6F772BD27E">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 22:02:06 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<sourcePk>22940F26-3515-4CC9-A826-E343FC76B689</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>150CD4AF-3D9F-60A6-8F55-0DFE61755DF5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5D81430F-5FDE-716F-3251-51E731F98DB4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

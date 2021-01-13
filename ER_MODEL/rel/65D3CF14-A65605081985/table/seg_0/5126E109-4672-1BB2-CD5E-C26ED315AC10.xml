@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5126E109-4672-1BB2-CD5E-C26ED315AC10" name="ROOM_TYPE">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>C249E20D-AB1F-950E-0283-4C8848D377BA</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<ordsAlias>type</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TYPE_ID" id="4CDD172E-D52E-B94F-09C7-EF3B323B0664">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>C36F83AB-1258-DC35-984A-AF35CEDE1E2F</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="2B200E5B-5B67-997F-E0DD-3D4826F7B878">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>3B00CA7E-ECC9-47DC-B7F8-3C48FD5B4936</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROOMS" id="22082488-F8E9-2B81-AAD4-0124252B0AB8">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>6DEED439-A415-C03F-7F49-FD0CBE260438</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BALCONY" id="B97FC066-347D-EC7E-B9A7-5CDD5881225C">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>2A802239-9AE8-678D-CCA9-C47A9AACC6FC</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROOMS_ROOM_ID" id="AC86E71C-804C-12D2-987A-B566AA114713">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>2DD42AAB-0124-4B3C-2F79-79C2AA429F37</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="783F2FFD-8F69-7F0F-379A-25CC9F5498E7" referredColumn="87E47C54-9554-FD78-3D58-5887AE10C665"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2AECDBE6-7F97-FB29-C9C5-01A43ED8A29C" name="TYPE_PK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>8271E971-0950-CC83-9C2F-3B7E5845DFC7</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CDD172E-D52E-B94F-09C7-EF3B323B0664"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3C9D6B3-31D9-87B5-9553-20BB1E9C7ACF" name="TYP_PK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C4DD62E7-864B-F234-805F-E6B121D2661C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4CDD172E-D52E-B94F-09C7-EF3B323B0664"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B8B1097-8692-A29A-35E8-45CF2FD3CF89" name="TYPE_ROOMS_FK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>C4DD62E7-864B-F234-805F-E6B121D2661C</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC86E71C-804C-12D2-987A-B566AA114713"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ROOMS FLOORS FK" directorySegmentName="seg_0" id="236DE59A-EAA4-0FC2-22A8-994B4F99AAB1">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 22:03:54 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<sourcePk>12A12BC0-C9C8-841E-04CB-6FF1A56B3E29</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>718B6152-283F-CB32-308D-8A811E57DCD1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EE50D1E0-7031-6B7A-4396-826F0104E386</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

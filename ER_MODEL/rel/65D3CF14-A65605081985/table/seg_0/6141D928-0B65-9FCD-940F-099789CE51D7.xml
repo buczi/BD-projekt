@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6141D928-0B65-9FCD-940F-099789CE51D7" name="Hotel">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>1ED061C5-527A-5B64-3A88-828985D5ABEF</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HOTEL_ID" id="46D78F95-87CE-8665-2819-F9C78B502EF7">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>F7808E53-F937-2E69-EA5D-2EE2F3BB3FA1</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="3487DDDE-2E51-B4AC-1101-29D958D97D1E">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>ECBE1A90-C7A7-5623-CB11-6D374B98875A</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS_ADDRESS_ID" id="C74594E3-2802-5E34-CECD-4173EB46454A">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>648221BD-724A-9B53-CC92-5C2CC18EEF87</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25BB4369-7B4F-9A9A-140B-AD369DD20E3E" referredColumn="1B6C1DDD-79C6-3B10-8380-4DA2B529D7BC"/>
+</associations>
+</Column>
+<Column name="SALES_SALES_ID" id="1357EA6D-27A5-F44C-8498-90AB0E577A57">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>D43AF183-6D9E-C28E-514B-60FBEEAFC1FA</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1C08702-0AF0-1264-1E41-44982F24BB14" referredColumn="0B04CB4E-7504-3F60-6BA6-1FF774B73BBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B46D8DD-B8E9-55DB-782B-4C360532207D" name="Hotel_PK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>D092860D-4FDD-4DBA-CACB-2AF0FC438D0A</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46D78F95-87CE-8665-2819-F9C78B502EF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D09B2509-D702-A8A7-1706-7FA961E10FC1" name="Hotel_ID">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2F915C3C-DEED-F1CA-F129-9A71E4CC91E6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="46D78F95-87CE-8665-2819-F9C78B502EF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB85D015-6681-D9E2-2BC0-149BCACD41FC" name="Hotel_ADDRESS_FK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>2F915C3C-DEED-F1CA-F129-9A71E4CC91E6</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C74594E3-2802-5E34-CECD-4173EB46454A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F116629-21BC-CB18-248A-D29E1F11D47B" name="Hotel_SALES_FK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>83FBF678-E370-9E1C-BF1E-9A61C80DF1D4</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1357EA6D-27A5-F44C-8498-90AB0E577A57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

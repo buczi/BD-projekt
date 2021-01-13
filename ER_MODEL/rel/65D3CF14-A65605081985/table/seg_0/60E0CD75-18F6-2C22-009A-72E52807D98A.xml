@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60E0CD75-18F6-2C22-009A-72E52807D98A" name="RESERVATIONS">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>C815AD2A-F8E5-3ADE-74AE-1057D388034A</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RESERVATION_ID" id="8C77E138-8703-F5ED-9671-80799D873477">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>C006F757-209E-0E70-4AA0-D8498023BCF7</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHECK_ID_DATE" id="01E68FE3-3369-532D-0310-2F3CDCE811B5">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>A1DE5FC4-7784-846A-7AD4-FCDB70D94EFD</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHECK_OUT_DATE" id="344258A5-838B-2A4C-DF17-5D7F954B2F66">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>06866C48-421B-E5F7-5D9E-6578E6970055</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="B1EC3CC3-5BF4-AA7F-B35A-CA1A9A8EA3B9">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>7A5744D1-944E-A467-0AA9-C107DB430D61</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROOMS_ROOM_ID" id="6BAFFD6D-280E-E527-2EAF-2223A5C79F8F">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>A6C40B62-D274-79E3-1EC2-B3EE8A08AEBB</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F84D3928-8CF1-F8B0-E238-816264079CAE" referredColumn="87E47C54-9554-FD78-3D58-5887AE10C665"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9708B9A3-06EE-F4D4-8BC6-523CE3843387" name="RESERVATIONS_PK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>81ADAAEA-6323-1211-8031-B1D818F6AFCD</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C77E138-8703-F5ED-9671-80799D873477"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5462F9C5-6008-8ABC-5846-F65AEE282AE2" name="RES_PK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 08:11:36 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C77E138-8703-F5ED-9671-80799D873477"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="544771DB-899F-C30A-7349-37537881C6B4" name="RESERVATIONS_GUESTS_FK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>1CA3AF7F-BFCC-A249-B8C7-FD5EBC23FD3F</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="0ABB71DA-0860-5CA5-1FD1-B7B9822FF9C0" name="RESERVATIONS_ROOMS_FK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>D55CD095-8B87-6776-68C1-E9E53250117D</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BAFFD6D-280E-E527-2EAF-2223A5C79F8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

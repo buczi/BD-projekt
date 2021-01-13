@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="718B6152-283F-CB32-308D-8A811E57DCD1" name="FLOORS">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 21:04:48 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FLOOR ID" id="A4D64CA0-4385-77B8-395C-1CA526A4A378">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 21:04:55 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FLOOR NUMBER" id="A3A3CB2F-62B7-01B9-11EA-628D429C0FAA">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 21:05:05 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FLOOR SIZE" id="27399CE6-747A-8B31-EF2E-864BA2E8E354">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 21:05:50 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hotel HOTEL ID" id="131BABDF-433F-BF0B-C8C8-20A07A16B29C">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:53:32 UTC</createdTime>
+<generatorID>610957F8-F528-42BA-EF22-7968CC861311</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<referedAttribute>F7808E53-F937-2E69-EA5D-2EE2F3BB3FA1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12A12BC0-C9C8-841E-04CB-6FF1A56B3E29" name="FLOORS PK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 21:05:04 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4D64CA0-4385-77B8-395C-1CA526A4A378</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

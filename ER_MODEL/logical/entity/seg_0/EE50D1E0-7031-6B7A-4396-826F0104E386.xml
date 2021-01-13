@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE50D1E0-7031-6B7A-4396-826F0104E386" name="ROOMS">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 20:52:47 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ROOM ID" id="2A7DC16C-8CD5-5417-1635-F1D9B55BDCF0">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 20:52:54 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ROOM NUMBER" id="5F0986AA-59BC-30AE-085E-C118B9B7F424">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 20:53:35 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ROOM SIZE" id="0B62D6EF-9612-001B-75F0-F736663F5045">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 20:53:58 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRICE" id="23F993E6-94C8-811B-781A-6D5B882666D4">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 20:55:19 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GUESTS NUMBER" id="81A1AF9E-327F-A8EC-FBF9-91DC28AF7DFA">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 20:55:45 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYPE TYPE ID" id="181E12CE-3B66-F92C-2831-9E2BBB6A84E7">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 21:56:39 UTC</createdTime>
+<generatorID>C4DD62E7-864B-F234-805F-E6B121D2661C</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<referedAttribute>C36F83AB-1258-DC35-984A-AF35CEDE1E2F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FLOORS FLOOR ID" id="0FA2B3D1-09DB-8BD4-75AC-258C19FF78F5">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 22:03:54 UTC</createdTime>
+<generatorID>236DE59A-EAA4-0FC2-22A8-994B4F99AAB1</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<referedAttribute>A4D64CA0-4385-77B8-395C-1CA526A4A378</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F901720A-A0C0-BE2E-BBFC-F17772067B79" name="ROOMS PK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 20:53:12 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2A7DC16C-8CD5-5417-1635-F1D9B55BDCF0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

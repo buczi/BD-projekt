@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68C0A44A-DE90-00FE-81E1-29D6AEC71073" name="FUTNITURE">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>150CD4AF-3D9F-60A6-8F55-0DFE61755DF5</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FURNITURE_ID" id="8CCAA5C1-4CB9-D70E-3CB9-3F01DAB8249E">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>CECED5FB-B418-DCB6-78BD-CF5AF602690F</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="958E400E-B5A1-27C5-8647-272FF52ECD18">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>8FBF2B92-029F-3AE0-67FA-1EE90F0434B5</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_BOUGHT" id="B285C5DD-0F7A-06AE-ED1E-4A72E156038E">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>AC1B937C-78EF-BC91-DCEA-D6DA46CA2729</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5BAA8DD-EB2D-E02A-2293-2C3A914CA56D" name="FUTNITURE_PK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>22940F26-3515-4CC9-A826-E343FC76B689</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CCAA5C1-4CB9-D70E-3CB9-3F01DAB8249E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3E5B179-1EE8-1DE3-5B29-0CFF6B5933CF" name="FUR_PK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 08:12:22 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CCAA5C1-4CB9-D70E-3CB9-3F01DAB8249E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

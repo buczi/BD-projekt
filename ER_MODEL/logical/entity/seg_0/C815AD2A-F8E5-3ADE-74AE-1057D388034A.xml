@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C815AD2A-F8E5-3ADE-74AE-1057D388034A" name="RESERVATIONS">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 20:43:45 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RESERVATION ID" id="C006F757-209E-0E70-4AA0-D8498023BCF7">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 20:45:45 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CHECK ID DATE" id="A1DE5FC4-7784-846A-7AD4-FCDB70D94EFD">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 20:45:58 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CHECK OUT DATE" id="06866C48-421B-E5F7-5D9E-6578E6970055">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 20:46:15 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRICE" id="7A5744D1-944E-A467-0AA9-C107DB430D61">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 20:46:31 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ROOMS ROOM ID" id="A6C40B62-D274-79E3-1EC2-B3EE8A08AEBB">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 22:04:11 UTC</createdTime>
+<generatorID>D55CD095-8B87-6776-68C1-E9E53250117D</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<referedAttribute>2A7DC16C-8CD5-5417-1635-F1D9B55BDCF0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GUEST ID" id="F115AE83-11CF-16BD-1444-145E5B1A5563">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 16:59:52 UTC</createdTime>
+<generatorID>A14A10B3-4B44-015A-2E53-AD52CAD36049</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<referedAttribute>555BA24D-8502-8733-8C1B-54AC204E5663</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="81ADAAEA-6323-1211-8031-B1D818F6AFCD" name="RESERVATIONS PK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 20:45:57 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C006F757-209E-0E70-4AA0-D8498023BCF7</attributeRef>
+<attributeRef>F115AE83-11CF-16BD-1444-145E5B1A5563</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

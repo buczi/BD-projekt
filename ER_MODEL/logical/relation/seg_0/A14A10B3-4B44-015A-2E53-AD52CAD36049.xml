@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RESERVATIONS_GUESTS_FK" directorySegmentName="seg_0" id="A14A10B3-4B44-015A-2E53-AD52CAD36049">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 16:59:52 UTC</createdTime>
+<generatorID>92235BCB-745C-8E0B-9AEE-E684A85F3C65</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<sourcePk>38AB0971-2B75-A16C-7528-45FD0F4E35DC</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AE0E9707-09EB-0D7C-7B1C-B597A6497353</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C815AD2A-F8E5-3ADE-74AE-1057D388034A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TYPE ROOMS FK" directorySegmentName="seg_0" id="C4DD62E7-864B-F234-805F-E6B121D2661C">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 21:56:29 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<sourcePk>F901720A-A0C0-BE2E-BBFC-F17772067B79</sourcePk>
+<targetPk>8271E971-0950-CC83-9C2F-3B7E5845DFC7</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EE50D1E0-7031-6B7A-4396-826F0104E386</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C249E20D-AB1F-950E-0283-4C8848D377BA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

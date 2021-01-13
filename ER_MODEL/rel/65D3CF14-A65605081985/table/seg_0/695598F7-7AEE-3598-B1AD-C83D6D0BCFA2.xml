@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="695598F7-7AEE-3598-B1AD-C83D6D0BCFA2" name="FLOORS">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>718B6152-283F-CB32-308D-8A811E57DCD1</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FLOOR_ID" id="3071F8DC-CF60-D836-8F57-8160CBEF26EB">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>A4D64CA0-4385-77B8-395C-1CA526A4A378</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLOOR_NUMBER" id="FE6D4681-B580-34F2-2302-A47CE2B3C91C">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>A3A3CB2F-62B7-01B9-11EA-628D429C0FAA</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLOOR_SIZE" id="FCE0C380-5918-8F96-27EF-295D93F03D92">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>27399CE6-747A-8B31-EF2E-864BA2E8E354</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hotel_HOTEL_ID" id="70F54A15-4B60-1E73-CE2F-2ED2DEE99C9B">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>131BABDF-433F-BF0B-C8C8-20A07A16B29C</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6498BD66-FCDB-1074-2DBD-5B08DF9DA34B" referredColumn="46D78F95-87CE-8665-2819-F9C78B502EF7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D6DC706-467E-6BD6-C5DF-A5E6EB91E35B" name="FLOORS_PK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>12A12BC0-C9C8-841E-04CB-6FF1A56B3E29</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3071F8DC-CF60-D836-8F57-8160CBEF26EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93F7FFBF-C0B9-1D9A-2839-A81E36F0A04C" name="FLO_PK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 08:11:15 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3071F8DC-CF60-D836-8F57-8160CBEF26EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A185E6D-4329-6B8F-578C-FD4628587BE0" name="FLOORS_Hotel_FK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>610957F8-F528-42BA-EF22-7968CC861311</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70F54A15-4B60-1E73-CE2F-2ED2DEE99C9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

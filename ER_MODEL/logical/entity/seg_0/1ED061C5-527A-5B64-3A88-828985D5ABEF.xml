@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1ED061C5-527A-5B64-3A88-828985D5ABEF" name="Hotel">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 20:03:33 UTC</createdTime>
+<generatorID>114B343C-2CB2-D957-7C4E-57070F186CAA</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="HOTEL ID" id="F7808E53-F937-2E69-EA5D-2EE2F3BB3FA1">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 20:24:24 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="ECBE1A90-C7A7-5623-CB11-6D374B98875A">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 20:25:18 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS ADDRESS ID" id="648221BD-724A-9B53-CC92-5C2CC18EEF87">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:51:24 UTC</createdTime>
+<generatorID>2F915C3C-DEED-F1CA-F129-9A71E4CC91E6</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<referedAttribute>FFD184F2-84CD-D8BA-9687-BB1476A4FB87</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALES SALES ID" id="D43AF183-6D9E-C28E-514B-60FBEEAFC1FA">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:52:23 UTC</createdTime>
+<generatorID>83FBF678-E370-9E1C-BF1E-9A61C80DF1D4</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<referedAttribute>55C92CCE-115D-ABEE-4ABB-91F991BB81FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D092860D-4FDD-4DBA-CACB-2AF0FC438D0A" name="Hotel PK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 20:24:52 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7808E53-F937-2E69-EA5D-2EE2F3BB3FA1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

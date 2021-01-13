@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EQUIPMENT ROOMS FK" directorySegmentName="seg_0" id="AE4CD404-0BBA-8729-3A46-E6E13CE96855">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-12 22:00:57 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<sourcePk>F901720A-A0C0-BE2E-BBFC-F17772067B79</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EE50D1E0-7031-6B7A-4396-826F0104E386</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5D81430F-5FDE-716F-3251-51E731F98DB4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

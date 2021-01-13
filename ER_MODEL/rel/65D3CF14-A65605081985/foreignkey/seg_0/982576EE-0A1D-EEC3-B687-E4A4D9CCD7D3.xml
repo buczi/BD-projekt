@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="982576EE-0A1D-EEC3-B687-E4A4D9CCD7D3" containerWithKeyObject="A3265884-768D-A892-BAB2-C98222451165" localFKIndex="0EAA1335-0AF4-8A68-B85B-8F2A990DBE8A" name="SALES_Hotel_FK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>83FBF678-E370-9E1C-BF1E-9A61C80DF1D4</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<referredTableLongName>Hotel</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6141D928-0B65-9FCD-940F-099789CE51D7</referredTableID>
+<keyObject>6B46D8DD-B8E9-55DB-782B-4C360532207D</keyObject>
+<referredKeyID>6B46D8DD-B8E9-55DB-782B-4C360532207D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>HOTEL_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

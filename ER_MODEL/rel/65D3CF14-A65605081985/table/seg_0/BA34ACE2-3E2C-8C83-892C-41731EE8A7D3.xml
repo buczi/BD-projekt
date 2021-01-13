@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA34ACE2-3E2C-8C83-892C-41731EE8A7D3" name="EMPLOYEES">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>E5E617AB-3E1C-DE82-4C84-FDE3B369A4B3</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_ID" id="FB3C9B87-D563-02B3-7ED9-1C7A66F47C8F">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>F888DA3C-4488-867B-3382-421CE7978324</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WORKING_TIME" id="D7F913F0-67AE-DAFE-25BD-0CBBCB9C5FB8">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>E0D5CECC-AD91-961E-91A6-31BA26066CA3</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="8A9F25FC-ECC8-2819-A9D4-749854829090">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>B6982F49-4829-2456-F08D-BC09F3AEEF76</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SURNAME" id="8CFFB37D-B868-F4D8-181C-4052056B92E4">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>CD623815-E520-DD25-3A64-C92B2CC2BCEE</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERVICES_SERVICE_ID" id="8DF61EAC-1C99-E466-904A-434524FF6D26">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>06FB06DA-35B7-7647-3F2C-E435B71521D8</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB4AB809-B36E-B9D3-E04B-FA13AF8A050E" referredColumn="93358416-0CA3-743A-CBE9-C8B5F930C511"/>
+</associations>
+</Column>
+<Column name="Hotel_HOTEL_ID" id="17521576-FC83-8FD2-9A31-EAB5A286F265">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>7ED07D76-702F-90C4-CB0E-1DFFF1D6F0BA</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5ECE5AC2-362E-CD1B-CAC3-2AD4DCA2DA7C" referredColumn="46D78F95-87CE-8665-2819-F9C78B502EF7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5721C10D-6012-1AAF-A275-BE82FC1144C4" name="EMPLOYEES_PK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>6D220FF4-B3D4-F402-FBD9-E2C6FFCBAA16</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB3C9B87-D563-02B3-7ED9-1C7A66F47C8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2FB3067-48B8-B33E-458A-5AAA13207C12" name="EMP_ID">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 08:10:33 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB3C9B87-D563-02B3-7ED9-1C7A66F47C8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="239AEE0D-528B-13CB-A1AA-774E8CA42B2B" name="EMPLOYEES_SERVICES_FK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>C9C19BDD-94AD-8893-1683-227E45DACADD</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DF61EAC-1C99-E466-904A-434524FF6D26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BA3E38B-B3BE-34A2-3148-7EA956CFCF9E" name="EMPLOYEES_Hotel_FK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>C14BE3CC-1BD2-DAF9-01EA-2AB24D3CB19F</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17521576-FC83-8FD2-9A31-EAB5A286F265"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

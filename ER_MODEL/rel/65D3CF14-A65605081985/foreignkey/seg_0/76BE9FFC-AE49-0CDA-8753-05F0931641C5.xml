@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="76BE9FFC-AE49-0CDA-8753-05F0931641C5" containerWithKeyObject="5625C6D0-2522-0C10-0F72-22301CC8BD40" localFKIndex="F82829AA-0E3A-0790-F576-337000DC31F6" name="EQUIPMENT_FUTNITURE_FK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<generatorID>046619EF-3CF6-7CD7-95CA-7B6F772BD27E</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<referredTableLongName>FUTNITURE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>68C0A44A-DE90-00FE-81E1-29D6AEC71073</referredTableID>
+<keyObject>C5BAA8DD-EB2D-E02A-2293-2C3A914CA56D</keyObject>
+<referredKeyID>C5BAA8DD-EB2D-E02A-2293-2C3A914CA56D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FURNITURE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
