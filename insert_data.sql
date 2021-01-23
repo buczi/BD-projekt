@@ -1,7 +1,7 @@
 INSERT INTO services VALUES ( 101 , 'Sprzatanie' , 30);
 INSERT INTO services VALUES ( 102 , 'Recepcjonista' , 25);
 INSERT INTO services VALUES ( 103 , 'Starszy Recepcjonista' , 40);
-INSERT INTO services VALUES ( 104 , 'Menad¿er' , 100);
+INSERT INTO services VALUES ( 104 , 'Menadzer' , 100);
 INSERT INTO services VALUES ( 105 , 'Ochroniarz' , 20);
 INSERT INTO services VALUES ( 106 , 'Serwisant' , 40);
 commit;
@@ -20,10 +20,10 @@ ALTER SESSION SET NLS_DATE_FORMAT = "DD/MM/YYYY";
 INSERT INTO futniture VALUES ( 101 , 'Kanapa' , '01/02/2004');
 INSERT INTO futniture VALUES ( 102 , 'Stolik' , '01/02/2006');
 INSERT INTO futniture VALUES ( 112 , 'Telewizor' , '01/02/2008');
-INSERT INTO futniture VALUES ( 103 , '£ó¿ko Jednoosobowe' , '01/02/2007');
+INSERT INTO futniture VALUES ( 103 , 'Lozko Jednoosobowe' , '01/02/2007');
 INSERT INTO futniture VALUES ( 104 , 'Telewizor Plazmowy' , '01/01/2009');
-INSERT INTO futniture VALUES ( 105 , '£ó¿ko Dwuosobowe' , '20/11/2011');
-INSERT INTO futniture VALUES ( 106 , '£ó¿ko King Size' , '01/02/2006');
+INSERT INTO futniture VALUES ( 105 , 'Lozko Dwuosobowe' , '20/11/2011');
+INSERT INTO futniture VALUES ( 106 , 'Lozko King Size' , '01/02/2006');
 INSERT INTO futniture VALUES ( 107 , 'Dywan' , '01/02/2008');
 INSERT INTO futniture VALUES ( 108 , 'Przysznic' , '01/02/2007');
 INSERT INTO futniture VALUES ( 109 , 'Wanna' , '01/02/2006');
@@ -31,11 +31,11 @@ INSERT INTO futniture VALUES ( 110 , 'Pralka' , '01/02/2008');
 INSERT INTO futniture VALUES ( 111 , 'Wentylator' , '01/02/2007');
 commit;
 -------------------------------------------------
-INSERT INTO guests VALUES ( 101 , 'Ignacy', 'Wakoñ' , 920129 );
-INSERT INTO guests VALUES ( 102 , 'Jerzy' , 'Bia³owierzy', 607123 );
-INSERT INTO guests VALUES ( 106 , 'Mi³os³aw' , 'Starynkiewicz', 2012934 );
-INSERT INTO guests VALUES ( 103 , 'Agata' , 'Sa³ata' , 9618523 );
-INSERT INTO guests VALUES ( 104 , 'Janina' , 'S³onina', 86710327 );
+INSERT INTO guests VALUES ( 101 , 'Ignacy', 'Wakon' , 920129 );
+INSERT INTO guests VALUES ( 102 , 'Jerzy' , 'Bialowierzy', 607123 );
+INSERT INTO guests VALUES ( 106 , 'Miloslaw' , 'Starynkiewicz', 2012934 );
+INSERT INTO guests VALUES ( 103 , 'Agata' , 'Salata' , 9618523 );
+INSERT INTO guests VALUES ( 104 , 'Janina' , 'Slonina', 86710327 );
 INSERT INTO guests VALUES ( 105 , 'Hubert' , 'Gniot', 12947108 );
 commit;
 ------------------------------------------------
@@ -46,7 +46,7 @@ commit;
 
 ------------------------------------------------
 INSERT INTO address VALUES ( 101 , 'WARSZAWA' , 'Jerozolimskie' , 25 , null );
-INSERT INTO address VALUES ( 102 , 'WARSZAWA' , 'Pu³awska' , 515 , null );
+INSERT INTO address VALUES ( 102 , 'WARSZAWA' , 'Pulawska' , 515 , null );
 INSERT INTO address VALUES ( 103 , 'KRAKOW' , 'Wawelska' , 69 , null );
 commit;
 
