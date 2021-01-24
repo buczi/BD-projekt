@@ -64,7 +64,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ROOMS ROOM ID" id="A6C40B62-D274-79E3-1EC2-B3EE8A08AEBB">
+<Attribute name="ROOM ID" id="A6C40B62-D274-79E3-1EC2-B3EE8A08AEBB">
 <createdBy>Maciej</createdBy>
 <createdTime>2021-01-12 22:04:11 UTC</createdTime>
 <generatorID>D55CD095-8B87-6776-68C1-E9E53250117D</generatorID>
@@ -92,6 +92,19 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="GUESTS NUMBER" id="016872D7-3583-D90D-1E81-B3D613C13690">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-24 14:07:33 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="81ADAAEA-6323-1211-8031-B1D818F6AFCD" name="RESERVATIONS PK">
@@ -105,7 +118,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>C006F757-209E-0E70-4AA0-D8498023BCF7</attributeRef>
-<attributeRef>F115AE83-11CF-16BD-1444-145E5B1A5563</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -67,7 +67,7 @@
 <dataTypeSize>20 BYTE</dataTypeSize>
 <ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SERVICES SERVICE ID" id="06FB06DA-35B7-7647-3F2C-E435B71521D8">
+<Attribute name="SERVICE ID" id="06FB06DA-35B7-7647-3F2C-E435B71521D8">
 <createdBy>Maciej</createdBy>
 <createdTime>2021-01-12 21:44:38 UTC</createdTime>
 <generatorID>C9C19BDD-94AD-8893-1683-227E45DACADD</generatorID>
@@ -81,7 +81,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Hotel HOTEL ID" id="7ED07D76-702F-90C4-CB0E-1DFFF1D6F0BA">
+<Attribute name="HOTEL ID" id="7ED07D76-702F-90C4-CB0E-1DFFF1D6F0BA">
 <createdBy>Maciej</createdBy>
 <createdTime>2021-01-12 21:52:40 UTC</createdTime>
 <generatorID>C14BE3CC-1BD2-DAF9-01EA-2AB24D3CB19F</generatorID>

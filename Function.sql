@@ -23,7 +23,7 @@ BEGIN
     RETURN v_floor;
 END;
 /
-------------------------------------------------------------
+-----------------------------------------------------------
 CREATE OR REPLACE FUNCTION calculate_yearly_tax(e_id NUMBER)
 RETURN NUMBER
 AS

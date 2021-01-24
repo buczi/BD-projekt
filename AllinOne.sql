@@ -58,7 +58,7 @@ CREATE OR REPLACE PROCEDURE change_hour_rate(rate NUMBER)
 AS
 
 BEGIN
-    FOR r_service IN (SELECT * FROM SERVICES) 
+    FOR r_service IN (SELECT * FROM SERVICES)
     LOOP
     UPDATE services SET price_per_hour = price_per_hour + price_per_hour * rate WHERE service_id = r_service.service_id;
     END LOOP;
@@ -102,7 +102,7 @@ FOR EACH ROW
 DECLARE
 BEGIN
     UPDATE SALES SET revenue = revenue + :new.price WHERE HOTEL_ID = :new.hotel_id;
-    dbms_output.put_line('Dodano kwotÃª wynajmu do obrotu '||:new.price);
+    dbms_output.put_line('Dodano kwotê wynajmu do obrotu '||:new.price);
 END;
 /
 

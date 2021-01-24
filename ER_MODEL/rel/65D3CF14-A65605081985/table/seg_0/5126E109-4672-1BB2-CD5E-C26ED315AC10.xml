@@ -68,7 +68,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="783F2FFD-8F69-7F0F-379A-25CC9F5498E7" referredColumn="87E47C54-9554-FD78-3D58-5887AE10C665"/>
+<colAssociation fkAssociation="8418085A-E531-2FC5-8025-93A02B7C179D" referredColumn="87E47C54-9554-FD78-3D58-5887AE10C665"/>
 </associations>
 </Column>
 </columns>
@@ -96,9 +96,20 @@
 <colUsage columnID="4CDD172E-D52E-B94F-09C7-EF3B323B0664"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9B8B1097-8692-A29A-35E8-45CF2FD3CF89" name="TYPE_ROOMS_FK">
+<ind_PK_UK id="D017AD7B-D178-364F-7249-0969EA396642" name="ROOM_TYPE__IDX">
 <createdBy>Maciej</createdBy>
-<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<createdTime>2021-01-24 14:23:05 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C4DD62E7-864B-F234-805F-E6B121D2661C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AC86E71C-804C-12D2-987A-B566AA114713"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03F91A81-E939-3596-5D99-F1F89BF999D7" name="ROOM_TYPE_ROOMS_FK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-24 14:27:49 UTC</createdTime>
 <generatorID>C4DD62E7-864B-F234-805F-E6B121D2661C</generatorID>
 <ownerDesignName>ER_MODEL</ownerDesignName>
 <indexState>Foreign Key</indexState>

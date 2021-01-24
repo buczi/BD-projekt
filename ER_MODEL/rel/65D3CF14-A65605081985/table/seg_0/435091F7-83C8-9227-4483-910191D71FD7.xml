@@ -42,6 +42,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="EMPLOYEES_EMPLOYEE_ID" id="C57A3DCC-6A35-FFB6-405C-EAC0C89CA318">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-24 14:12:28 UTC</createdTime>
+<generatorID>7E5742A5-6E5B-65C3-20FC-03D2BEEBD8E9</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="4BAEF8A8-44F8-714B-5203-27293ACB2CE3" name="SERVICES_PK">
@@ -63,6 +75,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="93358416-0CA3-743A-CBE9-C8B5F930C511"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA990C47-75EA-EC2D-0C5E-98238A597158" name="SERVICES__IDX">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-24 14:27:28 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C9C19BDD-94AD-8893-1683-227E45DACADD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C57A3DCC-6A35-FFB6-405C-EAC0C89CA318"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

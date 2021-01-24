@@ -65,7 +65,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Hotel HOTEL ID" id="BACAA458-FC89-836A-B6CE-D47A334D7D6C">
+<Attribute name="HOTEL ID" id="BACAA458-FC89-836A-B6CE-D47A334D7D6C">
 <createdBy>Maciej</createdBy>
 <createdTime>2021-01-12 22:06:57 UTC</createdTime>
 <generatorID>2F915C3C-DEED-F1CA-F129-9A71E4CC91E6</generatorID>

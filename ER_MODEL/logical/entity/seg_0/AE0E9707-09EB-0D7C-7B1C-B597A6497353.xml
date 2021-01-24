@@ -67,18 +67,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NULL SET GENERATED_88" directorySegmentName="seg_0" id="C19091F8-0505-2922-355A-9531DFCFBA7A">
-<createdBy>Maciej</createdBy>
-<createdTime>2021-01-13 16:59:10 UTC</createdTime>
-<ownerDesignName>ER_MODEL</ownerDesignName>
-<engineerTo>
-<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="38AB0971-2B75-A16C-7528-45FD0F4E35DC" name="GUESTS PK">

@@ -66,7 +66,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="283F7B05-26E8-AC91-AF4A-2E077C60333A" referredColumn="46D78F95-87CE-8665-2819-F9C78B502EF7"/>
+<colAssociation fkAssociation="57AE5C31-BC0A-F98F-0A59-BD0757783788" referredColumn="46D78F95-87CE-8665-2819-F9C78B502EF7"/>
 </associations>
 </Column>
 </columns>
@@ -94,9 +94,20 @@
 <colUsage columnID="1B6C1DDD-79C6-3B10-8380-4DA2B529D7BC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7705C4B0-0F01-2D8E-0374-C7B0A855C2B6" name="ADDRESS_Hotel_FK">
+<ind_PK_UK id="DA27543E-9F2E-3089-D291-8CBB77B8916B" name="ADDRESS__IDX">
 <createdBy>Maciej</createdBy>
-<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<createdTime>2021-01-24 14:23:05 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2F915C3C-DEED-F1CA-F129-9A71E4CC91E6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F7DD6E3D-1670-7362-6F4C-BE4908B69E0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70703287-5172-C543-44FA-080698B80BC1" name="ADDRESS_Hotel_FK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-24 14:27:49 UTC</createdTime>
 <generatorID>2F915C3C-DEED-F1CA-F129-9A71E4CC91E6</generatorID>
 <ownerDesignName>ER_MODEL</ownerDesignName>
 <indexState>Foreign Key</indexState>

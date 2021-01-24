@@ -68,6 +68,33 @@
 <colAssociation fkAssociation="F84D3928-8CF1-F8B0-E238-816264079CAE" referredColumn="87E47C54-9554-FD78-3D58-5887AE10C665"/>
 </associations>
 </Column>
+<Column name="GUESTS_GUEST_ID" id="55502AA4-AEB0-9746-F144-1A678B33C3D0">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-24 14:12:28 UTC</createdTime>
+<generatorID>F115AE83-11CF-16BD-1444-145E5B1A5563</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92235BCB-745C-8E0B-9AEE-E684A85F3C65" referredColumn="2AC5793F-EFE5-6A0C-94C1-4A8DE552AA9B"/>
+</associations>
+</Column>
+<Column name="GUESTS_NUMBER" id="4CA6FF58-D728-184D-E01A-BC284637FE41">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-24 14:12:28 UTC</createdTime>
+<generatorID>016872D7-3583-D90D-1E81-B3D613C13690</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="9708B9A3-06EE-F4D4-8BC6-523CE3843387" name="RESERVATIONS_PK">
@@ -99,6 +126,9 @@
 <ownerDesignName>ER_MODEL</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55502AA4-AEB0-9746-F144-1A678B33C3D0"/>
+</indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="0ABB71DA-0860-5CA5-1FD1-B7B9822FF9C0" name="RESERVATIONS_ROOMS_FK">
 <createdBy>Maciej</createdBy>

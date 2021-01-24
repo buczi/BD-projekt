@@ -41,7 +41,7 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ADDRESS ADDRESS ID" id="648221BD-724A-9B53-CC92-5C2CC18EEF87">
+<Attribute name="ADDRESS ID" id="648221BD-724A-9B53-CC92-5C2CC18EEF87">
 <createdBy>Maciej</createdBy>
 <createdTime>2021-01-13 07:51:24 UTC</createdTime>
 <generatorID>2F915C3C-DEED-F1CA-F129-9A71E4CC91E6</generatorID>
@@ -55,7 +55,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SALES SALES ID" id="D43AF183-6D9E-C28E-514B-60FBEEAFC1FA">
+<Attribute name="SALES ID" id="D43AF183-6D9E-C28E-514B-60FBEEAFC1FA">
 <createdBy>Maciej</createdBy>
 <createdTime>2021-01-13 07:52:23 UTC</createdTime>
 <generatorID>83FBF678-E370-9E1C-BF1E-9A61C80DF1D4</generatorID>

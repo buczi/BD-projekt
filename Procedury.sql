@@ -9,7 +9,7 @@ BEGIN
     
 END;
 /
----------------------------------------------------
+--------------------------------------------------
 CREATE OR REPLACE PROCEDURE calculate_amount_of_guest(h_id NUMBER)
 AS
 c_min_guest CONSTANT NUMBER := 2;
