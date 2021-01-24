@@ -67,9 +67,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="DB4AB809-B36E-B9D3-E04B-FA13AF8A050E" referredColumn="93358416-0CA3-743A-CBE9-C8B5F930C511"/>
-</associations>
 </Column>
 <Column name="Hotel_HOTEL_ID" id="17521576-FC83-8FD2-9A31-EAB5A286F265">
 <createdBy>Maciej</createdBy>
@@ -110,13 +107,13 @@
 <colUsage columnID="FB3C9B87-D563-02B3-7ED9-1C7A66F47C8F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="239AEE0D-528B-13CB-A1AA-774E8CA42B2B" name="EMPLOYEES_SERVICES_FK">
+<ind_PK_UK id="04A16270-E802-CDF3-2BC9-9F6AC2C14D57" name="EMPLOYEES__IDX">
 <createdBy>Maciej</createdBy>
-<createdTime>2021-01-13 07:58:55 UTC</createdTime>
-<generatorID>C9C19BDD-94AD-8893-1683-227E45DACADD</generatorID>
+<createdTime>2021-01-24 14:27:28 UTC</createdTime>
 <ownerDesignName>ER_MODEL</ownerDesignName>
-<indexState>Foreign Key</indexState>
+<indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C9C19BDD-94AD-8893-1683-227E45DACADD</relationGeneratorID>
 <indexColumnUsage>
 <colUsage columnID="8DF61EAC-1C99-E466-904A-434524FF6D26"/>
 </indexColumnUsage>

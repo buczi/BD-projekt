@@ -65,7 +65,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TYPE_TYPE_ID" id="76E40C01-8423-4470-E134-6F09656284A5">
+<Column name="ROOM_TYPE_TYPE_ID" id="76E40C01-8423-4470-E134-6F09656284A5">
 <createdBy>Maciej</createdBy>
 <createdTime>2021-01-13 07:58:55 UTC</createdTime>
 <generatorID>181E12CE-3B66-F92C-2831-9E2BBB6A84E7</generatorID>
@@ -77,7 +77,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E4F61AE8-A1E0-2F3D-FC9F-9D39569C686F" referredColumn="4CDD172E-D52E-B94F-09C7-EF3B323B0664"/>
+<colAssociation fkAssociation="F2C3357F-CC4A-08DB-0C12-A009E24D5A67" referredColumn="4CDD172E-D52E-B94F-09C7-EF3B323B0664"/>
 </associations>
 </Column>
 <Column name="FLOORS_FLOOR_ID" id="30B13C56-EF70-4473-268B-3EF99628A4D4">
@@ -119,6 +119,17 @@
 <colUsage columnID="87E47C54-9554-FD78-3D58-5887AE10C665"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="00F7587E-18BC-6DED-3D85-A80F89B3635F" name="ROOMS__IDX">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-24 14:23:05 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C4DD62E7-864B-F234-805F-E6B121D2661C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="76E40C01-8423-4470-E134-6F09656284A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="6B3A6D07-7ADC-D168-B571-C3E7D4BE335C" name="ROOMS_FLOORS_FK">
 <createdBy>Maciej</createdBy>
 <createdTime>2021-01-13 07:58:55 UTC</createdTime>
@@ -130,9 +141,9 @@
 <colUsage columnID="30B13C56-EF70-4473-268B-3EF99628A4D4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="26623451-A2E9-C139-1B19-260E0974E6DC" name="ROOMS_TYPE_FK">
+<ind_PK_UK id="748F8110-6C1D-431D-8019-6155F5D680BA" name="ROOMS_ROOM_TYPE_FK">
 <createdBy>Maciej</createdBy>
-<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<createdTime>2021-01-24 14:27:49 UTC</createdTime>
 <generatorID>C4DD62E7-864B-F234-805F-E6B121D2661C</generatorID>
 <ownerDesignName>ER_MODEL</ownerDesignName>
 <indexState>Foreign Key</indexState>

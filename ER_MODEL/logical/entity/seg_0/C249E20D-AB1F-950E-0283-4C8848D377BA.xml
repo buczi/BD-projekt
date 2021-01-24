@@ -66,7 +66,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ROOMS ROOM ID" id="2DD42AAB-0124-4B3C-2F79-79C2AA429F37">
+<Attribute name="ROOM ID" id="2DD42AAB-0124-4B3C-2F79-79C2AA429F37">
 <createdBy>Maciej</createdBy>
 <createdTime>2021-01-12 21:56:29 UTC</createdTime>
 <generatorID>C4DD62E7-864B-F234-805F-E6B121D2661C</generatorID>

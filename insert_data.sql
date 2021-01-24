@@ -86,12 +86,12 @@ INSERT INTO hotel VALUES ( 102 , 'SUPERSTAR' ,  102 , 101);
 INSERT INTO hotel VALUES ( 103 , 'MAGENDA' ,  101 , 103);
 commit;
 ------------------------------------------------
-INSERT INTO rooms VALUES ( 101 , 100 , 50 , 400 , 1, 101, 102);
-INSERT INTO rooms VALUES ( 102 , 101 , 30 , 200 , 0, 101, 102);
-INSERT INTO rooms VALUES ( 103 , 200 , 50 , 400 , 0, 102, 103);
-INSERT INTO rooms VALUES ( 104 , 330 , 50 , 400 , 0, 104, 104);
-INSERT INTO rooms VALUES ( 105 , 115 , 100 , 800 , 2 , 105, 106);
-INSERT INTO rooms VALUES ( 106 , 107 , 35 , 100 , 0 , 105, 111);
+INSERT INTO rooms VALUES ( 101 , 100 , 50 , 400 , 101, 102);
+INSERT INTO rooms VALUES ( 102 , 101 , 30 , 200 , 101, 102);
+INSERT INTO rooms VALUES ( 103 , 200 , 50 , 400 , 102, 103);
+INSERT INTO rooms VALUES ( 104 , 330 , 50 , 400 , 104, 104);
+INSERT INTO rooms VALUES ( 105 , 115 , 100 , 800 , 105, 106);
+INSERT INTO rooms VALUES ( 106 , 107 , 35 , 100 , 105, 111);
 commit;
 
 UPDATE floors SET hotel_id = 101 WHERE floor_id = 101;
@@ -126,41 +126,41 @@ UPDATE sales SET hotel_id = 103 WHERE sales_id = 103;
 
 commit;
 ------------------------------------------------
-INSERT INTO equipment VALUES ( 101, 102 );
-INSERT INTO equipment VALUES ( 101, 104 );
-INSERT INTO equipment VALUES ( 101, 107 );
-INSERT INTO equipment VALUES ( 101, 111 );
-INSERT INTO equipment VALUES ( 102, 103 );
-INSERT INTO equipment VALUES ( 102, 101 );
-INSERT INTO equipment VALUES ( 102, 107 );
-INSERT INTO equipment VALUES ( 102, 111 );
-INSERT INTO equipment VALUES ( 102, 102 );
-INSERT INTO equipment VALUES ( 102, 110 );
-INSERT INTO equipment VALUES ( 103, 101 );
-INSERT INTO equipment VALUES ( 103, 104 );
-INSERT INTO equipment VALUES ( 104, 111 );
-INSERT INTO equipment VALUES ( 104, 103 );
-INSERT INTO equipment VALUES ( 104, 101 );
-INSERT INTO equipment VALUES ( 104, 107 );
-INSERT INTO equipment VALUES ( 105, 111 );
-INSERT INTO equipment VALUES ( 106, 102 );
-INSERT INTO equipment VALUES ( 106, 110 );
-INSERT INTO equipment VALUES ( 106, 101 );
-INSERT INTO equipment VALUES ( 101, 104 );
+INSERT INTO equipment VALUES ( null, 101, 102 );
+INSERT INTO equipment VALUES ( null, 101, 104 );
+INSERT INTO equipment VALUES ( null, 101, 107 );
+INSERT INTO equipment VALUES ( null, 101, 111 );
+INSERT INTO equipment VALUES ( null, 102, 103 );
+INSERT INTO equipment VALUES ( null, 102, 101 );
+INSERT INTO equipment VALUES ( null, 102, 107 );
+INSERT INTO equipment VALUES ( null, 102, 111 );
+INSERT INTO equipment VALUES ( null, 102, 102 );
+INSERT INTO equipment VALUES ( null, 102, 110 );
+INSERT INTO equipment VALUES ( null, 103, 101 );
+INSERT INTO equipment VALUES ( null, 103, 104 );
+INSERT INTO equipment VALUES ( null, 104, 111 );
+INSERT INTO equipment VALUES ( null, 104, 103 );
+INSERT INTO equipment VALUES ( null, 104, 101 );
+INSERT INTO equipment VALUES ( null, 104, 107 );
+INSERT INTO equipment VALUES ( null, 105, 111 );
+INSERT INTO equipment VALUES ( null, 106, 102 );
+INSERT INTO equipment VALUES ( null, 106, 110 );
+INSERT INTO equipment VALUES ( null, 106, 101 );
+INSERT INTO equipment VALUES ( null, 101, 104 );
 commit;
 ------------------------------------------------
 
 
 
-INSERT INTO reservations VALUES ( 101, '01/01/2008', '01/12/2008' , 12000 , 105 , 103 );
-INSERT INTO reservations VALUES ( 102, '03/03/2005', '04/04/2005' , 7000 , 103 , 104);
-INSERT INTO reservations VALUES ( 103, '12/12/2005', '12/12/2006' , 1500 , 106 , 103);
-INSERT INTO reservations VALUES ( 104, '01/05/2000', '31/12/2010' , 600 , 102 , 101);
-INSERT INTO reservations VALUES (105, '01/01/2005', '03/03/2005' , 1200 , 105 , 105);
-INSERT INTO reservations VALUES (106,  '03/03/2005', '01/11/2005' , 4780 , 105 , 103);
-INSERT INTO reservations VALUES (107,  '01/11/2005', '01/12/2005' , 600 , 102 , 105);
-INSERT INTO reservations VALUES (108,  '01/01/2004', '11/10/2003' , 20000 , 104 , 102 );
-INSERT INTO reservations VALUES (109, '15/10/2004', '01/01/2005' , 8905 , 101 , 103);
-INSERT INTO reservations VALUES (110, '20/11/2005', '01/12/2006' , 4750 , 105 , 101 );
+INSERT INTO reservations VALUES ( 101, '01/01/2008', '01/12/2008' , 12000 , 105 , 103, 2 );
+INSERT INTO reservations VALUES ( 102, '03/03/2005', '04/04/2005' , 7000 , 103 , 104, 2);
+INSERT INTO reservations VALUES ( 103, '12/12/2005', '12/12/2006' , 1500 , 106 , 103, 1);
+INSERT INTO reservations VALUES ( 104, '01/05/2000', '31/12/2010' , 600 , 102 , 101, 1);
+INSERT INTO reservations VALUES (105, '01/01/2005', '03/03/2005' , 1200 , 105 , 105, 1);
+INSERT INTO reservations VALUES (106,  '03/03/2005', '01/11/2005' , 4780 , 105 , 103, 3);
+INSERT INTO reservations VALUES (107,  '01/11/2005', '01/12/2005' , 600 , 102 , 105, 2);
+INSERT INTO reservations VALUES (108,  '01/01/2004', '11/10/2003' , 20000 , 104 , 102 , 1);
+INSERT INTO reservations VALUES (109, '15/10/2004', '01/01/2005' , 8905 , 101 , 103, 2);
+INSERT INTO reservations VALUES (110, '20/11/2005', '01/12/2006' , 4750 , 105 , 101, 1 );
 commit;
 ------------------------------------------------

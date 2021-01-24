@@ -16,7 +16,7 @@ BEGIN
     END IF;
 END;
 /
-------------------------------------------------
+-----------------------------------------------
 CREATE OR REPLACE TRIGGER reservation_tr
 AFTER
 INSERT ON RESERVATIONS
@@ -27,6 +27,6 @@ BEGIN
     SELECT hotel_id INTO v_hotel_id FROM ROOMS R JOIN FLOORS F ON(f.floor_id = r.room_id)
     WHERE r.room_id = :new.room_id;
     UPDATE SALES SET revenue = revenue + :new.price WHERE HOTEL_ID = v_hotel_id;
-    dbms_output.put_line('Dodano kwotÃª wynajmu do obrotu '||:new.price);
+    dbms_output.put_line('Dodano kwotê wynajmu do obrotu '||:new.price);
 END;
 /

@@ -65,7 +65,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="982576EE-0A1D-EEC3-B687-E4A4D9CCD7D3" referredColumn="46D78F95-87CE-8665-2819-F9C78B502EF7"/>
+<colAssociation fkAssociation="334F494E-DD18-E543-788F-7EFDBCB238F0" referredColumn="46D78F95-87CE-8665-2819-F9C78B502EF7"/>
 </associations>
 </Column>
 </columns>
@@ -93,9 +93,20 @@
 <colUsage columnID="0B04CB4E-7504-3F60-6BA6-1FF774B73BBF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0EAA1335-0AF4-8A68-B85B-8F2A990DBE8A" name="SALES_Hotel_FK">
+<ind_PK_UK id="03C054C1-774E-9233-2913-7D811444DA2B" name="SALES__IDX">
 <createdBy>Maciej</createdBy>
-<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<createdTime>2021-01-24 14:23:05 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>83FBF678-E370-9E1C-BF1E-9A61C80DF1D4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="22F2EE2F-2842-4413-E4D7-7034FF805A09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E38D8609-E7BD-114F-F5FF-42D1650035E9" name="SALES_Hotel_FK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-24 14:27:49 UTC</createdTime>
 <generatorID>83FBF678-E370-9E1C-BF1E-9A61C80DF1D4</generatorID>
 <ownerDesignName>ER_MODEL</ownerDesignName>
 <indexState>Foreign Key</indexState>

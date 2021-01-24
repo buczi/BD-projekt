@@ -43,7 +43,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="25BB4369-7B4F-9A9A-140B-AD369DD20E3E" referredColumn="1B6C1DDD-79C6-3B10-8380-4DA2B529D7BC"/>
+<colAssociation fkAssociation="81C5143F-A182-B5BF-9D51-759F63F2B5AC" referredColumn="1B6C1DDD-79C6-3B10-8380-4DA2B529D7BC"/>
 </associations>
 </Column>
 <Column name="SALES_SALES_ID" id="1357EA6D-27A5-F44C-8498-90AB0E577A57">
@@ -58,7 +58,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F1C08702-0AF0-1264-1E41-44982F24BB14" referredColumn="0B04CB4E-7504-3F60-6BA6-1FF774B73BBF"/>
+<colAssociation fkAssociation="B7F5C97A-8557-3328-0266-9820FFD8FF58" referredColumn="0B04CB4E-7504-3F60-6BA6-1FF774B73BBF"/>
 </associations>
 </Column>
 </columns>
@@ -86,9 +86,31 @@
 <colUsage columnID="46D78F95-87CE-8665-2819-F9C78B502EF7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AB85D015-6681-D9E2-2BC0-149BCACD41FC" name="Hotel_ADDRESS_FK">
+<ind_PK_UK id="22E97716-1A8B-556B-B882-3D2017B51139" name="Hotel__IDX">
 <createdBy>Maciej</createdBy>
-<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<createdTime>2021-01-24 14:27:28 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2F915C3C-DEED-F1CA-F129-9A71E4CC91E6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C74594E3-2802-5E34-CECD-4173EB46454A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7CD64C8-2A3F-9DBC-A4C0-56411E6B73A4" name="Hotel__IDXv1v1">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-24 14:27:28 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>83FBF678-E370-9E1C-BF1E-9A61C80DF1D4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1357EA6D-27A5-F44C-8498-90AB0E577A57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48F408FF-B0A6-B830-D295-6890E2E814C9" name="Hotel_ADDRESS_FK">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-24 14:27:49 UTC</createdTime>
 <generatorID>2F915C3C-DEED-F1CA-F129-9A71E4CC91E6</generatorID>
 <ownerDesignName>ER_MODEL</ownerDesignName>
 <indexState>Foreign Key</indexState>
@@ -97,9 +119,9 @@
 <colUsage columnID="C74594E3-2802-5E34-CECD-4173EB46454A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2F116629-21BC-CB18-248A-D29E1F11D47B" name="Hotel_SALES_FK">
+<ind_PK_UK id="EED7FD68-059C-B2D5-6084-7271B29AFAAC" name="Hotel_SALES_FK">
 <createdBy>Maciej</createdBy>
-<createdTime>2021-01-13 07:58:55 UTC</createdTime>
+<createdTime>2021-01-24 14:27:49 UTC</createdTime>
 <generatorID>83FBF678-E370-9E1C-BF1E-9A61C80DF1D4</generatorID>
 <ownerDesignName>ER_MODEL</ownerDesignName>
 <indexState>Foreign Key</indexState>

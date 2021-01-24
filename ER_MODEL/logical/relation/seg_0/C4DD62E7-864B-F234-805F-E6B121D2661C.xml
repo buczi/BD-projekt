@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TYPE ROOMS FK" directorySegmentName="seg_0" id="C4DD62E7-864B-F234-805F-E6B121D2661C">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ROOMS ROOM TYPE FK" directorySegmentName="seg_0" id="C4DD62E7-864B-F234-805F-E6B121D2661C">
 <createdBy>Maciej</createdBy>
 <createdTime>2021-01-12 21:56:29 UTC</createdTime>
 <ownerDesignName>ER_MODEL</ownerDesignName>

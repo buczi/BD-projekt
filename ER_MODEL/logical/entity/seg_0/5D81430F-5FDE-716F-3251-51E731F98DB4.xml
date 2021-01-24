@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ROOMS ROOM ID" id="80474817-B00F-8CB7-817E-7C9C3732A9D9">
+<Attribute name="ROOM ID" id="80474817-B00F-8CB7-817E-7C9C3732A9D9">
 <createdBy>Maciej</createdBy>
 <createdTime>2021-01-12 22:00:57 UTC</createdTime>
 <generatorID>AE4CD404-0BBA-8729-3A46-E6E13CE96855</generatorID>
@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="FUTNITURE FURNITURE ID" id="2A0C4349-5E77-D320-14E8-EAF11F426D61">
+<Attribute name="FURNITURE ID" id="2A0C4349-5E77-D320-14E8-EAF11F426D61">
 <createdBy>Maciej</createdBy>
 <createdTime>2021-01-12 22:02:06 UTC</createdTime>
 <generatorID>046619EF-3CF6-7CD7-95CA-7B6F772BD27E</generatorID>
@@ -38,6 +38,19 @@
 <item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
 </engineerTo>
 <referedAttribute>CECED5FB-B418-DCB6-78BD-CF5AF602690F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EQUIPMENT ID" id="BACCC5AB-459A-2709-96B3-B78D8FE8B425">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-24 14:09:31 UTC</createdTime>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<engineerTo>
+<item key="65D3CF14-A0F3-DC2F-6FA9-A65605081985" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

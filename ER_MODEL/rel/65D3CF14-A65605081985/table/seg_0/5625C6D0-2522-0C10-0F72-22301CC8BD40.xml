@@ -38,6 +38,18 @@
 <colAssociation fkAssociation="76BE9FFC-AE49-0CDA-8753-05F0931641C5" referredColumn="8CCAA5C1-4CB9-D70E-3CB9-3F01DAB8249E"/>
 </associations>
 </Column>
+<Column name="EQUIPMENT_ID" id="61A02DEA-AE12-0888-8AB9-4631320EDFAA">
+<createdBy>Maciej</createdBy>
+<createdTime>2021-01-24 14:12:28 UTC</createdTime>
+<generatorID>BACCC5AB-459A-2709-96B3-B78D8FE8B425</generatorID>
+<ownerDesignName>ER_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="38DE5CFE-7CDB-248A-B41B-58FAD22CD548" name="EQUIPMENT_ROOMS_FK">
